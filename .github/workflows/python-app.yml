@@ -31,3 +31,4 @@ jobs:
     - name: Python application
       run: |
         python lab1.py
+        python lab1_02.py
