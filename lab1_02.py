@@ -13,7 +13,7 @@ import numpy as np
 import sklearn
 from sklearn import linear_model
 X=[[4.0],[5.0],[6.0],[7.0],[8.0],[9.0],[10.0]]
-y=[ 16,25,36,49,64,81,100,121]
+y=[ 16,25,36,49,64,81,100]
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.3, random_state=7)
 print("Training Features", X_train);print("Training Labels",y_train);print("Training Data",X_test);print("Testing Data",y_test)
 reg=linear_model.LinearRegression()
